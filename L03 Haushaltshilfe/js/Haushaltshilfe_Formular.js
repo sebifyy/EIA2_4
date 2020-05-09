@@ -1,6 +1,6 @@
 "use strict";
-var HaushaltshilfeFormular;
-(function (HaushaltshilfeFormular) {
+var L03;
+(function (L03) {
     window.addEventListener("load", init);
     function init(_event) {
         console.log("Init");
@@ -37,5 +37,5 @@ var HaushaltshilfeFormular;
             }
         }
     }
-})(HaushaltshilfeFormular || (HaushaltshilfeFormular = {}));
+})(L03 || (L03 = {}));
 //# sourceMappingURL=Haushaltshilfe_Formular.js.map

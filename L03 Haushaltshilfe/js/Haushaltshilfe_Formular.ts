@@ -1,5 +1,5 @@
 
-namespace HaushaltshilfeFormular {
+namespace L03 {
     window.addEventListener("load", init);
 
     function init(_event: Event): void {
