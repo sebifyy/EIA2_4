@@ -1,7 +1,10 @@
-namespace HaushaltshilfeFormular {
+namespace HaushaltshilfeFormularL04 {
     window.addEventListener("load", init);
 
     function init(_event: Event): void {
+        //fillShopping("Einkaufen");
+        fillConfigurator("Einkaufen", allProducts)
+        
         console.log("Init");
         let fieldsets: HTMLCollectionOf<HTMLFieldSetElement> = document.getElementsByTagName("fieldset");
         for (let i: number = 0; i < fieldsets.length; i++) {
@@ -37,4 +40,23 @@ namespace HaushaltshilfeFormular {
 
         }
     }
+
+
+
+    //function fillShopping(_htmlId: string): void {
+    //    let node: HTMLElement = document.getElementById(_htmlId);
+    //    console.log(node);
+    //    node.innerHTML = "BLABLABLA";
+    //}
+
+
+    function fillConfigurator(_htmlId: string, _srcArray: Products[]): void {
+        let node: HTMLElement = document.getElementById(_htmlId);
+        let childNodeHTML: string;
+        for (let i: number = 0; i < _srcArray.length; i++) {
+            childNodeHTML = "";
+            childNodeHTML += "<option value='" + [i] + "'data-price='" + _srcArray[i].price + "'>" + _srcArray[i].name + " " + _srcArray[i].price + "EUR</option>"; //<option value="[i]">BAUMNAME</option>
+            node.innerHTML += childNodeHTML;
+            console.log(childNodeHTML);
+        }
 }
