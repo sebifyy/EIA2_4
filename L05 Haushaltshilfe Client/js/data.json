@@ -1,0 +1,86 @@
+{
+    "obligatorisches hab ich selber geschrieben bla": {
+        "Name": "Sebastian Hoffmann",
+        "Matrikelnummer": "259316",
+        "Datum": "23-05-2020",
+        "Disclaimer": "Hiermit versichere ich das ich den Code selbstständig geschrieben habe."
+    },
+
+    "products": [
+ 
+       {
+          "id": "01",
+          "name": "Gurke",
+          "price": 0.49,
+          "unit": "Stück"
+       },
+ 
+       {
+        "id": "02",
+        "name": "Zwetschke",
+        "price": 0.79,
+        "unit": "Stück"
+     },
+ 
+     {
+        "id": "03",
+        "name": "Nudeln",
+        "price": 1.99,
+        "unti": "Gramm"
+     },
+
+     {
+        "id": "04",
+        "name": "Milch",
+        "price": 0.50,
+        "unti": "Liter"
+     }
+
+    ],
+
+    "services": [
+        {
+            "id": "01",
+            "name": "Fenster putzen",
+            "price": 35,
+            "aufwand": "3 Stunden"
+        },
+
+        {
+            
+            "id": "02",
+            "name": "Rasen mähen",
+            "price": 25,
+            "aufwand": "1 Stunde"
+        },
+
+        {
+            "id": "03",
+            "name": "Umzugshilfe",
+            "price": 150,
+            "aufwand": "1 Tag"
+        }
+    ],
+
+    "markets": [
+        {
+            "id": "01",
+            "name": "Rewe"
+        },
+
+        {
+            "id": "02",
+            "name": "LIDL"
+        },
+
+        {
+            "id": "03",
+            "name": "ALDI"
+        },
+
+        {
+            "id": "04",
+            "name": "Netto"
+        }
+    ]
+ }
