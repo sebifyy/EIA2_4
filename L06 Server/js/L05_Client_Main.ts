@@ -24,6 +24,7 @@ namespace HaushaltshilfeData {
 
     function handleClick(): void {
         alert("Danke für deine Bestellung!");
+        
     }
 
     function handleChange(_event: Event): void {
