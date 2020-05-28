@@ -41,7 +41,8 @@ var HaushaltshilfeData;
                 let newoption = document.createElement("option");
                 newoption.text = item.name;
                 select.add(newoption);
-                newoption.setAttribute("price", item.price.toFixed(2));
+                if (item.price !== null)
+                    newoption.setAttribute("price", item.price.toFixed(2));
                 newoption.value = item.name;
                 group.appendChild(select);
             }
