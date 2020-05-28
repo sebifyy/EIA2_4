@@ -25,7 +25,7 @@ var HaushaltshilfeData;
         let data = new FormData(form);
         let url = "https://whatever.server/path/file";
         let query = new URLSearchParams(data);
-        url += url + "?" + query.toString();
+        url += "?" + query.toString();
         alert(url);
         //await fetch(url);
     }

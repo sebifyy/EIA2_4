@@ -29,7 +29,7 @@ namespace HaushaltshilfeData {
 
         let url: string = "https://whatever.server/path/file";
         let query: URLSearchParams = new URLSearchParams(<any>data);
-        url += url + "?" + query.toString();
+        url +="?" + query.toString();
         alert(url);
         //await fetch(url);
     }           
