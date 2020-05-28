@@ -12,7 +12,7 @@ namespace HaushaltshilfeData {
     window.addEventListener("load", handleLoad);
 
     async function handleLoad(): Promise<void> {
-        let response: Response = await fetch("data.json");
+        let response: Response = await fetch("js/data.json");
         console.log(response);
         let offer: string = await response.text();
         let data: Data = JSON.parse(offer);
