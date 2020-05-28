@@ -38,7 +38,7 @@
 
     ],
 
-    "services": [
+    "Hausarbeiten": [
         {
             "id": "01",
             "name": "Fenster putzen",
@@ -62,7 +62,7 @@
         }
     ],
 
-    "supermarkt": [
+    "Supermarkt": [
         {
             "id": "01",
             "name": "Rewe"

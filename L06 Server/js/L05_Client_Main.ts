@@ -14,6 +14,7 @@ namespace HaushaltshilfeData {
     async function handleLoad(): Promise<void> {
         let response: Response = await fetch("../data.json");
         console.log(response);
+        console.log()
         let offer: string = await response.text();
         let data: Data = JSON.parse(offer);
 
