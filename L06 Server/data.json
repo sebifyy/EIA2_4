@@ -12,28 +12,28 @@
           "id": "01",
           "name": "Gurke",
           "price": 0.49,
-          "unit": "Stück"
+          "einheit": "Stück"
        },
  
        {
         "id": "02",
         "name": "Zwetschke",
         "price": 0.79,
-        "unit": "Stück"
+        "einheit": "Stück"
      },
  
      {
         "id": "03",
         "name": "Nudeln",
         "price": 1.99,
-        "unti": "Gramm"
+        "einheit": "Gramm"
      },
 
      {
         "id": "04",
         "name": "Milch",
         "price": 0.50,
-        "unti": "Liter"
+        "einheit": "Liter"
      }
 
     ],
