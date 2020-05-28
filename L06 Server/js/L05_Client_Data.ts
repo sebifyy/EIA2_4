@@ -60,7 +60,7 @@ namespace HaushaltshilfeData {
                 let newoption: HTMLOptionElement = document.createElement("option");
                 newoption.text = item.name;
                 select.add(newoption);
-                if (item.price !== null) newoption.setAttribute("price", item.price.toFixed(2));
+                if (typeof item.price == "number") newoption.setAttribute("price", item.price.toFixed(2));
                 newoption.value = item.name;
                 group.appendChild(select);
             }
