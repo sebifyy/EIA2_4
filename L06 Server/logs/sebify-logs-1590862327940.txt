@@ -1,0 +1,440 @@
+2020-05-30T17:34:59.705949+00:00 app[web.1]: npm ERR! sebify@1.0.0 start: `node js/L06_Server.js`
+2020-05-30T17:34:59.706043+00:00 app[web.1]: npm ERR! Exit status 1
+2020-05-30T17:34:59.706177+00:00 app[web.1]: npm ERR! 
+2020-05-30T17:34:59.706258+00:00 app[web.1]: npm ERR! Failed at the sebify@1.0.0 start script.
+2020-05-30T17:34:59.706352+00:00 app[web.1]: npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+2020-05-30T17:34:59.714481+00:00 app[web.1]: 
+2020-05-30T17:34:59.714790+00:00 app[web.1]: npm ERR! A complete log of this run can be found in:
+2020-05-30T17:34:59.714944+00:00 app[web.1]: npm ERR!     /app/.npm/_logs/2020-05-30T17_34_59_707Z-debug.log
+2020-05-30T17:34:59.776692+00:00 heroku[web.1]: Process exited with status 1
+2020-05-30T17:34:59.821289+00:00 heroku[web.1]: State changed from starting to crashed
+2020-05-30T17:37:38.000000+00:00 app[api]: Build started by user sebastian.hoffmann@hs-furtwangen.de
+2020-05-30T17:37:59.354840+00:00 app[api]: Release v6 created by user sebastian.hoffmann@hs-furtwangen.de
+2020-05-30T17:37:59.354840+00:00 app[api]: Deploy ac607c7d by user sebastian.hoffmann@hs-furtwangen.de
+2020-05-30T17:37:59.000000+00:00 app[api]: Build succeeded
+2020-05-30T17:38:00.555980+00:00 heroku[web.1]: State changed from crashed to starting
+2020-05-30T17:38:04.560772+00:00 heroku[web.1]: Starting process with command `npm start`
+2020-05-30T17:38:07.202709+00:00 heroku[web.1]: Process exited with status 1
+2020-05-30T17:38:07.237648+00:00 heroku[web.1]: State changed from starting to crashed
+2020-05-30T17:38:07.086557+00:00 app[web.1]: 
+2020-05-30T17:38:07.086583+00:00 app[web.1]: > sebify@1.0.0 start /app
+2020-05-30T17:38:07.086584+00:00 app[web.1]: > node js/L06_Server.js
+2020-05-30T17:38:07.086584+00:00 app[web.1]: 
+2020-05-30T17:38:07.129371+00:00 app[web.1]: internal/modules/cjs/loader.js:969
+2020-05-30T17:38:07.129372+00:00 app[web.1]:   throw err;
+2020-05-30T17:38:07.129373+00:00 app[web.1]:   ^
+2020-05-30T17:38:07.129373+00:00 app[web.1]: 
+2020-05-30T17:38:07.129374+00:00 app[web.1]: Error: Cannot find module '/app/js/L06_Server.js'
+2020-05-30T17:38:07.129374+00:00 app[web.1]:     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+2020-05-30T17:38:07.129374+00:00 app[web.1]:     at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+2020-05-30T17:38:07.129375+00:00 app[web.1]:     at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+2020-05-30T17:38:07.129375+00:00 app[web.1]:     at internal/main/run_main_module.js:17:47 {
+2020-05-30T17:38:07.129376+00:00 app[web.1]:   code: 'MODULE_NOT_FOUND',
+2020-05-30T17:38:07.129376+00:00 app[web.1]:   requireStack: []
+2020-05-30T17:38:07.129376+00:00 app[web.1]: }
+2020-05-30T17:38:07.135409+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2020-05-30T17:38:07.135664+00:00 app[web.1]: npm ERR! errno 1
+2020-05-30T17:38:07.136751+00:00 app[web.1]: npm ERR! sebify@1.0.0 start: `node js/L06_Server.js`
+2020-05-30T17:38:07.136862+00:00 app[web.1]: npm ERR! Exit status 1
+2020-05-30T17:38:07.136995+00:00 app[web.1]: npm ERR! 
+2020-05-30T17:38:07.137103+00:00 app[web.1]: npm ERR! Failed at the sebify@1.0.0 start script.
+2020-05-30T17:38:07.137225+00:00 app[web.1]: npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+2020-05-30T17:38:07.145293+00:00 app[web.1]: 
+2020-05-30T17:38:07.145500+00:00 app[web.1]: npm ERR! A complete log of this run can be found in:
+2020-05-30T17:38:07.145618+00:00 app[web.1]: npm ERR!     /app/.npm/_logs/2020-05-30T17_38_07_138Z-debug.log
+2020-05-30T17:39:38.000000+00:00 app[api]: Build started by user sebastian.hoffmann@hs-furtwangen.de
+2020-05-30T17:39:59.458668+00:00 app[api]: Deploy 13482149 by user sebastian.hoffmann@hs-furtwangen.de
+2020-05-30T17:39:59.458668+00:00 app[api]: Release v7 created by user sebastian.hoffmann@hs-furtwangen.de
+2020-05-30T17:39:59.000000+00:00 app[api]: Build succeeded
+2020-05-30T17:40:00.878753+00:00 heroku[web.1]: State changed from crashed to starting
+2020-05-30T17:40:04.899207+00:00 heroku[web.1]: Starting process with command `npm start`
+2020-05-30T17:40:07.197266+00:00 heroku[web.1]: Process exited with status 1
+2020-05-30T17:40:07.257243+00:00 heroku[web.1]: State changed from starting to crashed
+2020-05-30T17:40:07.084086+00:00 app[web.1]: 
+2020-05-30T17:40:07.084110+00:00 app[web.1]: > sebify@1.0.0 start /app
+2020-05-30T17:40:07.084111+00:00 app[web.1]: > node js/L06_Server.js
+2020-05-30T17:40:07.084111+00:00 app[web.1]: 
+2020-05-30T17:40:07.136010+00:00 app[web.1]: internal/modules/cjs/loader.js:969
+2020-05-30T17:40:07.136012+00:00 app[web.1]:   throw err;
+2020-05-30T17:40:07.136013+00:00 app[web.1]:   ^
+2020-05-30T17:40:07.136013+00:00 app[web.1]: 
+2020-05-30T17:40:07.136014+00:00 app[web.1]: Error: Cannot find module '/app/js/L06_Server.js'
+2020-05-30T17:40:07.136014+00:00 app[web.1]:     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+2020-05-30T17:40:07.136015+00:00 app[web.1]:     at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+2020-05-30T17:40:07.136015+00:00 app[web.1]:     at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+2020-05-30T17:40:07.136016+00:00 app[web.1]:     at internal/main/run_main_module.js:17:47 {
+2020-05-30T17:40:07.136016+00:00 app[web.1]:   code: 'MODULE_NOT_FOUND',
+2020-05-30T17:40:07.136016+00:00 app[web.1]:   requireStack: []
+2020-05-30T17:40:07.136017+00:00 app[web.1]: }
+2020-05-30T17:40:07.141388+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2020-05-30T17:40:07.141708+00:00 app[web.1]: npm ERR! errno 1
+2020-05-30T17:40:07.142824+00:00 app[web.1]: npm ERR! sebify@1.0.0 start: `node js/L06_Server.js`
+2020-05-30T17:40:07.142995+00:00 app[web.1]: npm ERR! Exit status 1
+2020-05-30T17:40:07.143188+00:00 app[web.1]: npm ERR! 
+2020-05-30T17:40:07.143339+00:00 app[web.1]: npm ERR! Failed at the sebify@1.0.0 start script.
+2020-05-30T17:40:07.143490+00:00 app[web.1]: npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+2020-05-30T17:40:07.151667+00:00 app[web.1]: 
+2020-05-30T17:40:07.151862+00:00 app[web.1]: npm ERR! A complete log of this run can be found in:
+2020-05-30T17:40:07.151959+00:00 app[web.1]: npm ERR!     /app/.npm/_logs/2020-05-30T17_40_07_144Z-debug.log
+2020-05-30T17:41:27.000000+00:00 app[api]: Build started by user sebastian.hoffmann@hs-furtwangen.de
+2020-05-30T17:41:48.603609+00:00 app[api]: Release v8 created by user sebastian.hoffmann@hs-furtwangen.de
+2020-05-30T17:41:48.603609+00:00 app[api]: Deploy e91da96f by user sebastian.hoffmann@hs-furtwangen.de
+2020-05-30T17:41:49.778090+00:00 heroku[web.1]: State changed from crashed to starting
+2020-05-30T17:41:48.000000+00:00 app[api]: Build succeeded
+2020-05-30T17:41:54.019038+00:00 heroku[web.1]: Starting process with command `npm start`
+2020-05-30T17:41:56.894650+00:00 heroku[web.1]: Process exited with status 1
+2020-05-30T17:41:56.932400+00:00 heroku[web.1]: State changed from starting to crashed
+2020-05-30T17:41:56.768018+00:00 app[web.1]: 
+2020-05-30T17:41:56.768046+00:00 app[web.1]: > sebify@1.0.0 start /app
+2020-05-30T17:41:56.768046+00:00 app[web.1]: > node js/L06_Server.js
+2020-05-30T17:41:56.768047+00:00 app[web.1]: 
+2020-05-30T17:41:56.816177+00:00 app[web.1]: internal/modules/cjs/loader.js:969
+2020-05-30T17:41:56.816179+00:00 app[web.1]:   throw err;
+2020-05-30T17:41:56.816179+00:00 app[web.1]:   ^
+2020-05-30T17:41:56.816180+00:00 app[web.1]: 
+2020-05-30T17:41:56.816180+00:00 app[web.1]: Error: Cannot find module '/app/js/L06_Server.js'
+2020-05-30T17:41:56.816180+00:00 app[web.1]:     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+2020-05-30T17:41:56.816181+00:00 app[web.1]:     at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+2020-05-30T17:41:56.816181+00:00 app[web.1]:     at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+2020-05-30T17:41:56.816181+00:00 app[web.1]:     at internal/main/run_main_module.js:17:47 {
+2020-05-30T17:41:56.816182+00:00 app[web.1]:   code: 'MODULE_NOT_FOUND',
+2020-05-30T17:41:56.816182+00:00 app[web.1]:   requireStack: []
+2020-05-30T17:41:56.816182+00:00 app[web.1]: }
+2020-05-30T17:41:56.823019+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2020-05-30T17:41:56.823323+00:00 app[web.1]: npm ERR! errno 1
+2020-05-30T17:41:56.824434+00:00 app[web.1]: npm ERR! sebify@1.0.0 start: `node js/L06_Server.js`
+2020-05-30T17:41:56.824581+00:00 app[web.1]: npm ERR! Exit status 1
+2020-05-30T17:41:56.824782+00:00 app[web.1]: npm ERR! 
+2020-05-30T17:41:56.824913+00:00 app[web.1]: npm ERR! Failed at the sebify@1.0.0 start script.
+2020-05-30T17:41:56.825064+00:00 app[web.1]: npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+2020-05-30T17:41:56.832911+00:00 app[web.1]: 
+2020-05-30T17:41:56.833160+00:00 app[web.1]: npm ERR! A complete log of this run can be found in:
+2020-05-30T17:41:56.833281+00:00 app[web.1]: npm ERR!     /app/.npm/_logs/2020-05-30T17_41_56_826Z-debug.log
+2020-05-30T17:43:18.274073+00:00 heroku[web.1]: State changed from crashed to starting
+2020-05-30T17:43:22.251402+00:00 heroku[web.1]: Starting process with command `npm start`
+2020-05-30T17:43:25.388222+00:00 heroku[web.1]: Process exited with status 1
+2020-05-30T17:43:25.428696+00:00 heroku[web.1]: State changed from starting to crashed
+2020-05-30T17:43:25.173456+00:00 app[web.1]: 
+2020-05-30T17:43:25.173619+00:00 app[web.1]: > sebify@1.0.0 start /app
+2020-05-30T17:43:25.173619+00:00 app[web.1]: > node js/L06_Server.js
+2020-05-30T17:43:25.173624+00:00 app[web.1]: 
+2020-05-30T17:43:25.231591+00:00 app[web.1]: internal/modules/cjs/loader.js:969
+2020-05-30T17:43:25.231593+00:00 app[web.1]:   throw err;
+2020-05-30T17:43:25.231593+00:00 app[web.1]:   ^
+2020-05-30T17:43:25.231594+00:00 app[web.1]: 
+2020-05-30T17:43:25.231599+00:00 app[web.1]: Error: Cannot find module '/app/js/L06_Server.js'
+2020-05-30T17:43:25.231602+00:00 app[web.1]:     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+2020-05-30T17:43:25.231602+00:00 app[web.1]:     at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+2020-05-30T17:43:25.231605+00:00 app[web.1]:     at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+2020-05-30T17:43:25.231605+00:00 app[web.1]:     at internal/main/run_main_module.js:17:47 {
+2020-05-30T17:43:25.231606+00:00 app[web.1]:   code: 'MODULE_NOT_FOUND',
+2020-05-30T17:43:25.231606+00:00 app[web.1]:   requireStack: []
+2020-05-30T17:43:25.231606+00:00 app[web.1]: }
+2020-05-30T17:43:25.239405+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2020-05-30T17:43:25.239751+00:00 app[web.1]: npm ERR! errno 1
+2020-05-30T17:43:25.241015+00:00 app[web.1]: npm ERR! sebify@1.0.0 start: `node js/L06_Server.js`
+2020-05-30T17:43:25.241205+00:00 app[web.1]: npm ERR! Exit status 1
+2020-05-30T17:43:25.241368+00:00 app[web.1]: npm ERR! 
+2020-05-30T17:43:25.241490+00:00 app[web.1]: npm ERR! Failed at the sebify@1.0.0 start script.
+2020-05-30T17:43:25.241634+00:00 app[web.1]: npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+2020-05-30T17:43:25.250392+00:00 app[web.1]: 
+2020-05-30T17:43:25.250626+00:00 app[web.1]: npm ERR! A complete log of this run can be found in:
+2020-05-30T17:43:25.250768+00:00 app[web.1]: npm ERR!     /app/.npm/_logs/2020-05-30T17_43_25_243Z-debug.log
+2020-05-30T17:44:01.000000+00:00 app[api]: Build started by user sebastian.hoffmann@hs-furtwangen.de
+2020-05-30T17:44:23.546421+00:00 app[api]: Deploy fd63cc40 by user sebastian.hoffmann@hs-furtwangen.de
+2020-05-30T17:44:23.546421+00:00 app[api]: Release v9 created by user sebastian.hoffmann@hs-furtwangen.de
+2020-05-30T17:44:24.909079+00:00 heroku[web.1]: State changed from crashed to starting
+2020-05-30T17:44:23.000000+00:00 app[api]: Build succeeded
+2020-05-30T17:44:30.004064+00:00 heroku[web.1]: Starting process with command `npm start`
+2020-05-30T17:44:33.682145+00:00 heroku[web.1]: Process exited with status 1
+2020-05-30T17:44:33.742411+00:00 heroku[web.1]: State changed from starting to crashed
+2020-05-30T17:44:33.482813+00:00 app[web.1]: 
+2020-05-30T17:44:33.482855+00:00 app[web.1]: > sebify@1.0.0 start /app
+2020-05-30T17:44:33.482856+00:00 app[web.1]: > node js/L06_Server.js
+2020-05-30T17:44:33.482856+00:00 app[web.1]: 
+2020-05-30T17:44:33.596362+00:00 app[web.1]: internal/modules/cjs/loader.js:969
+2020-05-30T17:44:33.596363+00:00 app[web.1]:   throw err;
+2020-05-30T17:44:33.596364+00:00 app[web.1]:   ^
+2020-05-30T17:44:33.596364+00:00 app[web.1]: 
+2020-05-30T17:44:33.596370+00:00 app[web.1]: Error: Cannot find module '/app/js/L06_Server.js'
+2020-05-30T17:44:33.596375+00:00 app[web.1]:     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+2020-05-30T17:44:33.596375+00:00 app[web.1]:     at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+2020-05-30T17:44:33.596380+00:00 app[web.1]:     at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+2020-05-30T17:44:33.596381+00:00 app[web.1]:     at internal/main/run_main_module.js:17:47 {
+2020-05-30T17:44:33.596381+00:00 app[web.1]:   code: 'MODULE_NOT_FOUND',
+2020-05-30T17:44:33.596382+00:00 app[web.1]:   requireStack: []
+2020-05-30T17:44:33.596382+00:00 app[web.1]: }
+2020-05-30T17:44:33.604132+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2020-05-30T17:44:33.604581+00:00 app[web.1]: npm ERR! errno 1
+2020-05-30T17:44:33.606050+00:00 app[web.1]: npm ERR! sebify@1.0.0 start: `node js/L06_Server.js`
+2020-05-30T17:44:33.606284+00:00 app[web.1]: npm ERR! Exit status 1
+2020-05-30T17:44:33.606521+00:00 app[web.1]: npm ERR! 
+2020-05-30T17:44:33.606712+00:00 app[web.1]: npm ERR! Failed at the sebify@1.0.0 start script.
+2020-05-30T17:44:33.606924+00:00 app[web.1]: npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+2020-05-30T17:44:33.613575+00:00 app[web.1]: 
+2020-05-30T17:44:33.613796+00:00 app[web.1]: npm ERR! A complete log of this run can be found in:
+2020-05-30T17:44:33.613898+00:00 app[web.1]: npm ERR!     /app/.npm/_logs/2020-05-30T17_44_33_608Z-debug.log
+2020-05-30T17:45:27.000000+00:00 app[api]: Build started by user sebastian.hoffmann@hs-furtwangen.de
+2020-05-30T17:45:50.940396+00:00 app[api]: Deploy fd63cc40 by user sebastian.hoffmann@hs-furtwangen.de
+2020-05-30T17:45:50.940396+00:00 app[api]: Release v10 created by user sebastian.hoffmann@hs-furtwangen.de
+2020-05-30T17:45:51.000000+00:00 app[api]: Build succeeded
+2020-05-30T17:45:52.237244+00:00 heroku[web.1]: State changed from crashed to starting
+2020-05-30T17:45:56.049397+00:00 heroku[web.1]: Starting process with command `npm start`
+2020-05-30T17:45:58.462604+00:00 heroku[web.1]: Process exited with status 1
+2020-05-30T17:45:58.503631+00:00 heroku[web.1]: State changed from starting to crashed
+2020-05-30T17:45:58.344659+00:00 app[web.1]: 
+2020-05-30T17:45:58.344741+00:00 app[web.1]: > sebify@1.0.0 start /app
+2020-05-30T17:45:58.344741+00:00 app[web.1]: > node js/L06_Server.js
+2020-05-30T17:45:58.344742+00:00 app[web.1]: 
+2020-05-30T17:45:58.399885+00:00 app[web.1]: internal/modules/cjs/loader.js:969
+2020-05-30T17:45:58.399886+00:00 app[web.1]:   throw err;
+2020-05-30T17:45:58.399887+00:00 app[web.1]:   ^
+2020-05-30T17:45:58.399887+00:00 app[web.1]: 
+2020-05-30T17:45:58.399888+00:00 app[web.1]: Error: Cannot find module '/app/js/L06_Server.js'
+2020-05-30T17:45:58.399888+00:00 app[web.1]:     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+2020-05-30T17:45:58.399889+00:00 app[web.1]:     at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+2020-05-30T17:45:58.399889+00:00 app[web.1]:     at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+2020-05-30T17:45:58.399890+00:00 app[web.1]:     at internal/main/run_main_module.js:17:47 {
+2020-05-30T17:45:58.399890+00:00 app[web.1]:   code: 'MODULE_NOT_FOUND',
+2020-05-30T17:45:58.399891+00:00 app[web.1]:   requireStack: []
+2020-05-30T17:45:58.399891+00:00 app[web.1]: }
+2020-05-30T17:45:58.406094+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2020-05-30T17:45:58.406313+00:00 app[web.1]: npm ERR! errno 1
+2020-05-30T17:45:58.407247+00:00 app[web.1]: npm ERR! sebify@1.0.0 start: `node js/L06_Server.js`
+2020-05-30T17:45:58.407356+00:00 app[web.1]: npm ERR! Exit status 1
+2020-05-30T17:45:58.407467+00:00 app[web.1]: npm ERR! 
+2020-05-30T17:45:58.407553+00:00 app[web.1]: npm ERR! Failed at the sebify@1.0.0 start script.
+2020-05-30T17:45:58.407646+00:00 app[web.1]: npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+2020-05-30T17:45:58.416115+00:00 app[web.1]: 
+2020-05-30T17:45:58.416261+00:00 app[web.1]: npm ERR! A complete log of this run can be found in:
+2020-05-30T17:45:58.416332+00:00 app[web.1]: npm ERR!     /app/.npm/_logs/2020-05-30T17_45_58_408Z-debug.log
+2020-05-30T17:48:47.000000+00:00 app[api]: Build started by user sebastian.hoffmann@hs-furtwangen.de
+2020-05-30T17:49:09.038195+00:00 app[api]: Deploy 39bc5f43 by user sebastian.hoffmann@hs-furtwangen.de
+2020-05-30T17:49:09.038195+00:00 app[api]: Release v11 created by user sebastian.hoffmann@hs-furtwangen.de
+2020-05-30T17:49:09.000000+00:00 app[api]: Build succeeded
+2020-05-30T17:49:10.411358+00:00 heroku[web.1]: State changed from crashed to starting
+2020-05-30T17:49:14.861929+00:00 heroku[web.1]: Starting process with command `npm start`
+2020-05-30T17:49:17.944187+00:00 heroku[web.1]: Process exited with status 1
+2020-05-30T17:49:17.997511+00:00 heroku[web.1]: State changed from starting to crashed
+2020-05-30T17:49:17.757153+00:00 app[web.1]: 
+2020-05-30T17:49:17.757169+00:00 app[web.1]: > sebify@1.0.0 start /app
+2020-05-30T17:49:17.757169+00:00 app[web.1]: > node js/L06_Server.js
+2020-05-30T17:49:17.757170+00:00 app[web.1]: 
+2020-05-30T17:49:17.821410+00:00 app[web.1]: internal/modules/cjs/loader.js:969
+2020-05-30T17:49:17.821412+00:00 app[web.1]:   throw err;
+2020-05-30T17:49:17.821413+00:00 app[web.1]:   ^
+2020-05-30T17:49:17.821413+00:00 app[web.1]: 
+2020-05-30T17:49:17.821414+00:00 app[web.1]: Error: Cannot find module '/app/js/L06_Server.js'
+2020-05-30T17:49:17.821415+00:00 app[web.1]:     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+2020-05-30T17:49:17.821416+00:00 app[web.1]:     at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+2020-05-30T17:49:17.821417+00:00 app[web.1]:     at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+2020-05-30T17:49:17.821417+00:00 app[web.1]:     at internal/main/run_main_module.js:17:47 {
+2020-05-30T17:49:17.821418+00:00 app[web.1]:   code: 'MODULE_NOT_FOUND',
+2020-05-30T17:49:17.821418+00:00 app[web.1]:   requireStack: []
+2020-05-30T17:49:17.821419+00:00 app[web.1]: }
+2020-05-30T17:49:17.836309+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2020-05-30T17:49:17.836720+00:00 app[web.1]: npm ERR! errno 1
+2020-05-30T17:49:17.838371+00:00 app[web.1]: npm ERR! sebify@1.0.0 start: `node js/L06_Server.js`
+2020-05-30T17:49:17.838545+00:00 app[web.1]: npm ERR! Exit status 1
+2020-05-30T17:49:17.838774+00:00 app[web.1]: npm ERR! 
+2020-05-30T17:49:17.838911+00:00 app[web.1]: npm ERR! Failed at the sebify@1.0.0 start script.
+2020-05-30T17:49:17.839054+00:00 app[web.1]: npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+2020-05-30T17:49:17.849699+00:00 app[web.1]: 
+2020-05-30T17:49:17.850169+00:00 app[web.1]: npm ERR! A complete log of this run can be found in:
+2020-05-30T17:49:17.850494+00:00 app[web.1]: npm ERR!     /app/.npm/_logs/2020-05-30T17_49_17_841Z-debug.log
+2020-05-30T17:50:32.000000+00:00 app[api]: Build started by user sebastian.hoffmann@hs-furtwangen.de
+2020-05-30T17:50:55.401947+00:00 app[api]: Release v12 created by user sebastian.hoffmann@hs-furtwangen.de
+2020-05-30T17:50:55.401947+00:00 app[api]: Deploy b3d40e2f by user sebastian.hoffmann@hs-furtwangen.de
+2020-05-30T17:50:55.000000+00:00 app[api]: Build succeeded
+2020-05-30T17:50:57.625703+00:00 heroku[web.1]: State changed from crashed to starting
+2020-05-30T17:51:01.335353+00:00 heroku[web.1]: Starting process with command `npm start`
+2020-05-30T17:51:03.577717+00:00 heroku[web.1]: Process exited with status 1
+2020-05-30T17:51:03.662008+00:00 heroku[web.1]: State changed from starting to crashed
+2020-05-30T17:51:03.422587+00:00 app[web.1]: 
+2020-05-30T17:51:03.422615+00:00 app[web.1]: > sebify@1.0.0 start /app
+2020-05-30T17:51:03.422616+00:00 app[web.1]: > node js/L06_Server.js
+2020-05-30T17:51:03.422616+00:00 app[web.1]: 
+2020-05-30T17:51:03.469157+00:00 app[web.1]: internal/modules/cjs/loader.js:969
+2020-05-30T17:51:03.469159+00:00 app[web.1]:   throw err;
+2020-05-30T17:51:03.469159+00:00 app[web.1]:   ^
+2020-05-30T17:51:03.469159+00:00 app[web.1]: 
+2020-05-30T17:51:03.469160+00:00 app[web.1]: Error: Cannot find module '/app/js/L06_Server.js'
+2020-05-30T17:51:03.469160+00:00 app[web.1]:     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+2020-05-30T17:51:03.469160+00:00 app[web.1]:     at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+2020-05-30T17:51:03.469161+00:00 app[web.1]:     at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+2020-05-30T17:51:03.469161+00:00 app[web.1]:     at internal/main/run_main_module.js:17:47 {
+2020-05-30T17:51:03.469161+00:00 app[web.1]:   code: 'MODULE_NOT_FOUND',
+2020-05-30T17:51:03.469162+00:00 app[web.1]:   requireStack: []
+2020-05-30T17:51:03.469162+00:00 app[web.1]: }
+2020-05-30T17:51:03.474401+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2020-05-30T17:51:03.474700+00:00 app[web.1]: npm ERR! errno 1
+2020-05-30T17:51:03.475638+00:00 app[web.1]: npm ERR! sebify@1.0.0 start: `node js/L06_Server.js`
+2020-05-30T17:51:03.475749+00:00 app[web.1]: npm ERR! Exit status 1
+2020-05-30T17:51:03.475933+00:00 app[web.1]: npm ERR! 
+2020-05-30T17:51:03.476075+00:00 app[web.1]: npm ERR! Failed at the sebify@1.0.0 start script.
+2020-05-30T17:51:03.476164+00:00 app[web.1]: npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+2020-05-30T17:51:03.508045+00:00 app[web.1]: 
+2020-05-30T17:51:03.508179+00:00 app[web.1]: npm ERR! A complete log of this run can be found in:
+2020-05-30T17:51:03.508240+00:00 app[web.1]: npm ERR!     /app/.npm/_logs/2020-05-30T17_51_03_476Z-debug.log
+2020-05-30T17:54:30.573610+00:00 heroku[web.1]: State changed from crashed to starting
+2020-05-30T17:54:34.129415+00:00 heroku[web.1]: Starting process with command `npm start`
+2020-05-30T17:54:35.868531+00:00 heroku[web.1]: Process exited with status 1
+2020-05-30T17:54:35.909536+00:00 heroku[web.1]: State changed from starting to crashed
+2020-05-30T17:54:35.764598+00:00 app[web.1]: 
+2020-05-30T17:54:35.764611+00:00 app[web.1]: > sebify@1.0.0 start /app
+2020-05-30T17:54:35.764612+00:00 app[web.1]: > node js/L06_Server.js
+2020-05-30T17:54:35.764612+00:00 app[web.1]: 
+2020-05-30T17:54:35.805641+00:00 app[web.1]: internal/modules/cjs/loader.js:969
+2020-05-30T17:54:35.805641+00:00 app[web.1]:   throw err;
+2020-05-30T17:54:35.805642+00:00 app[web.1]:   ^
+2020-05-30T17:54:35.805642+00:00 app[web.1]: 
+2020-05-30T17:54:35.805643+00:00 app[web.1]: Error: Cannot find module '/app/js/L06_Server.js'
+2020-05-30T17:54:35.805643+00:00 app[web.1]:     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+2020-05-30T17:54:35.805643+00:00 app[web.1]:     at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+2020-05-30T17:54:35.805644+00:00 app[web.1]:     at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+2020-05-30T17:54:35.805644+00:00 app[web.1]:     at internal/main/run_main_module.js:17:47 {
+2020-05-30T17:54:35.805644+00:00 app[web.1]:   code: 'MODULE_NOT_FOUND',
+2020-05-30T17:54:35.805645+00:00 app[web.1]:   requireStack: []
+2020-05-30T17:54:35.805645+00:00 app[web.1]: }
+2020-05-30T17:54:35.810596+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2020-05-30T17:54:35.810921+00:00 app[web.1]: npm ERR! errno 1
+2020-05-30T17:54:35.811969+00:00 app[web.1]: npm ERR! sebify@1.0.0 start: `node js/L06_Server.js`
+2020-05-30T17:54:35.812141+00:00 app[web.1]: npm ERR! Exit status 1
+2020-05-30T17:54:35.812330+00:00 app[web.1]: npm ERR! 
+2020-05-30T17:54:35.812483+00:00 app[web.1]: npm ERR! Failed at the sebify@1.0.0 start script.
+2020-05-30T17:54:35.812639+00:00 app[web.1]: npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+2020-05-30T17:54:35.820563+00:00 app[web.1]: 
+2020-05-30T17:54:35.820784+00:00 app[web.1]: npm ERR! A complete log of this run can be found in:
+2020-05-30T17:54:35.820929+00:00 app[web.1]: npm ERR!     /app/.npm/_logs/2020-05-30T17_54_35_813Z-debug.log
+2020-05-30T17:56:08.000000+00:00 app[api]: Build started by user sebastian.hoffmann@hs-furtwangen.de
+2020-05-30T17:56:29.477471+00:00 app[api]: Deploy 37aed034 by user sebastian.hoffmann@hs-furtwangen.de
+2020-05-30T17:56:29.477471+00:00 app[api]: Release v13 created by user sebastian.hoffmann@hs-furtwangen.de
+2020-05-30T17:56:29.000000+00:00 app[api]: Build succeeded
+2020-05-30T17:56:30.824241+00:00 heroku[web.1]: State changed from crashed to starting
+2020-05-30T17:56:34.692216+00:00 heroku[web.1]: Starting process with command `npm start`
+2020-05-30T17:56:37.487774+00:00 heroku[web.1]: Process exited with status 1
+2020-05-30T17:56:37.539022+00:00 heroku[web.1]: State changed from starting to crashed
+2020-05-30T17:56:37.365264+00:00 app[web.1]: 
+2020-05-30T17:56:37.365283+00:00 app[web.1]: > sebify@1.0.0 start /app
+2020-05-30T17:56:37.365284+00:00 app[web.1]: > node app/js/L06_Server.js
+2020-05-30T17:56:37.365284+00:00 app[web.1]: 
+2020-05-30T17:56:37.410088+00:00 app[web.1]: internal/modules/cjs/loader.js:969
+2020-05-30T17:56:37.410090+00:00 app[web.1]:   throw err;
+2020-05-30T17:56:37.410091+00:00 app[web.1]:   ^
+2020-05-30T17:56:37.410091+00:00 app[web.1]: 
+2020-05-30T17:56:37.410092+00:00 app[web.1]: Error: Cannot find module '/app/app/js/L06_Server.js'
+2020-05-30T17:56:37.410092+00:00 app[web.1]:     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+2020-05-30T17:56:37.410093+00:00 app[web.1]:     at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+2020-05-30T17:56:37.410093+00:00 app[web.1]:     at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+2020-05-30T17:56:37.410094+00:00 app[web.1]:     at internal/main/run_main_module.js:17:47 {
+2020-05-30T17:56:37.410094+00:00 app[web.1]:   code: 'MODULE_NOT_FOUND',
+2020-05-30T17:56:37.410094+00:00 app[web.1]:   requireStack: []
+2020-05-30T17:56:37.410095+00:00 app[web.1]: }
+2020-05-30T17:56:37.415467+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2020-05-30T17:56:37.415699+00:00 app[web.1]: npm ERR! errno 1
+2020-05-30T17:56:37.416810+00:00 app[web.1]: npm ERR! sebify@1.0.0 start: `node app/js/L06_Server.js`
+2020-05-30T17:56:37.416896+00:00 app[web.1]: npm ERR! Exit status 1
+2020-05-30T17:56:37.417018+00:00 app[web.1]: npm ERR! 
+2020-05-30T17:56:37.417109+00:00 app[web.1]: npm ERR! Failed at the sebify@1.0.0 start script.
+2020-05-30T17:56:37.417188+00:00 app[web.1]: npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+2020-05-30T17:56:37.435287+00:00 app[web.1]: 
+2020-05-30T17:56:37.435430+00:00 app[web.1]: npm ERR! A complete log of this run can be found in:
+2020-05-30T17:56:37.435491+00:00 app[web.1]: npm ERR!     /app/.npm/_logs/2020-05-30T17_56_37_418Z-debug.log
+2020-05-30T18:00:52.000000+00:00 app[api]: Build started by user sebastian.hoffmann@hs-furtwangen.de
+2020-05-30T18:01:13.741598+00:00 app[api]: Release v14 created by user sebastian.hoffmann@hs-furtwangen.de
+2020-05-30T18:01:13.741598+00:00 app[api]: Deploy d9ee03cf by user sebastian.hoffmann@hs-furtwangen.de
+2020-05-30T18:01:14.000000+00:00 app[api]: Build succeeded
+2020-05-30T18:01:15.019170+00:00 heroku[web.1]: State changed from crashed to starting
+2020-05-30T18:01:21.987277+00:00 heroku[web.1]: Starting process with command `npm start`
+2020-05-30T18:01:26.286734+00:00 heroku[web.1]: Process exited with status 1
+2020-05-30T18:01:26.350329+00:00 heroku[web.1]: State changed from starting to crashed
+2020-05-30T18:01:26.088549+00:00 app[web.1]: 
+2020-05-30T18:01:26.088559+00:00 app[web.1]: > sebify@1.0.0 start /app
+2020-05-30T18:01:26.088560+00:00 app[web.1]: > node app/js/L06_Server.js
+2020-05-30T18:01:26.088560+00:00 app[web.1]: 
+2020-05-30T18:01:26.154593+00:00 app[web.1]: internal/modules/cjs/loader.js:969
+2020-05-30T18:01:26.154595+00:00 app[web.1]:   throw err;
+2020-05-30T18:01:26.154595+00:00 app[web.1]:   ^
+2020-05-30T18:01:26.154596+00:00 app[web.1]: 
+2020-05-30T18:01:26.154596+00:00 app[web.1]: Error: Cannot find module '/app/app/js/L06_Server.js'
+2020-05-30T18:01:26.154597+00:00 app[web.1]:     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+2020-05-30T18:01:26.154597+00:00 app[web.1]:     at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+2020-05-30T18:01:26.154598+00:00 app[web.1]:     at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+2020-05-30T18:01:26.154598+00:00 app[web.1]:     at internal/main/run_main_module.js:17:47 {
+2020-05-30T18:01:26.154599+00:00 app[web.1]:   code: 'MODULE_NOT_FOUND',
+2020-05-30T18:01:26.154599+00:00 app[web.1]:   requireStack: []
+2020-05-30T18:01:26.154599+00:00 app[web.1]: }
+2020-05-30T18:01:26.172616+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2020-05-30T18:01:26.172914+00:00 app[web.1]: npm ERR! errno 1
+2020-05-30T18:01:26.174160+00:00 app[web.1]: npm ERR! sebify@1.0.0 start: `node app/js/L06_Server.js`
+2020-05-30T18:01:26.174297+00:00 app[web.1]: npm ERR! Exit status 1
+2020-05-30T18:01:26.174552+00:00 app[web.1]: npm ERR! 
+2020-05-30T18:01:26.174616+00:00 app[web.1]: npm ERR! Failed at the sebify@1.0.0 start script.
+2020-05-30T18:01:26.174767+00:00 app[web.1]: npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+2020-05-30T18:01:26.186271+00:00 app[web.1]: 
+2020-05-30T18:01:26.186625+00:00 app[web.1]: npm ERR! A complete log of this run can be found in:
+2020-05-30T18:01:26.186887+00:00 app[web.1]: npm ERR!     /app/.npm/_logs/2020-05-30T18_01_26_176Z-debug.log
+2020-05-30T18:02:55.000000+00:00 app[api]: Build started by user sebastian.hoffmann@hs-furtwangen.de
+2020-05-30T18:03:30.839529+00:00 app[api]: Deploy ac049da6 by user sebastian.hoffmann@hs-furtwangen.de
+2020-05-30T18:03:30.839529+00:00 app[api]: Release v15 created by user sebastian.hoffmann@hs-furtwangen.de
+2020-05-30T18:03:31.000000+00:00 app[api]: Build succeeded
+2020-05-30T18:03:32.104672+00:00 heroku[web.1]: State changed from crashed to starting
+2020-05-30T18:03:36.733895+00:00 heroku[web.1]: Starting process with command `npm start`
+2020-05-30T18:03:39.628898+00:00 heroku[web.1]: Process exited with status 1
+2020-05-30T18:03:39.686295+00:00 heroku[web.1]: State changed from starting to crashed
+2020-05-30T18:03:39.456224+00:00 app[web.1]: 
+2020-05-30T18:03:39.456244+00:00 app[web.1]: > sebify@1.0.0 start /app
+2020-05-30T18:03:39.456244+00:00 app[web.1]: > node L06_Server.js
+2020-05-30T18:03:39.456244+00:00 app[web.1]: 
+2020-05-30T18:03:39.530996+00:00 app[web.1]: internal/modules/cjs/loader.js:969
+2020-05-30T18:03:39.530997+00:00 app[web.1]:   throw err;
+2020-05-30T18:03:39.530998+00:00 app[web.1]:   ^
+2020-05-30T18:03:39.530999+00:00 app[web.1]: 
+2020-05-30T18:03:39.530999+00:00 app[web.1]: Error: Cannot find module '/app/L06_Server.js'
+2020-05-30T18:03:39.531000+00:00 app[web.1]:     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+2020-05-30T18:03:39.531001+00:00 app[web.1]:     at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+2020-05-30T18:03:39.531001+00:00 app[web.1]:     at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+2020-05-30T18:03:39.531002+00:00 app[web.1]:     at internal/main/run_main_module.js:17:47 {
+2020-05-30T18:03:39.531002+00:00 app[web.1]:   code: 'MODULE_NOT_FOUND',
+2020-05-30T18:03:39.531003+00:00 app[web.1]:   requireStack: []
+2020-05-30T18:03:39.531003+00:00 app[web.1]: }
+2020-05-30T18:03:39.547104+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2020-05-30T18:03:39.547493+00:00 app[web.1]: npm ERR! errno 1
+2020-05-30T18:03:39.549053+00:00 app[web.1]: npm ERR! sebify@1.0.0 start: `node L06_Server.js`
+2020-05-30T18:03:39.549253+00:00 app[web.1]: npm ERR! Exit status 1
+2020-05-30T18:03:39.549674+00:00 app[web.1]: npm ERR! 
+2020-05-30T18:03:39.549825+00:00 app[web.1]: npm ERR! Failed at the sebify@1.0.0 start script.
+2020-05-30T18:03:39.550054+00:00 app[web.1]: npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+2020-05-30T18:03:39.560299+00:00 app[web.1]: 
+2020-05-30T18:03:39.560730+00:00 app[web.1]: npm ERR! A complete log of this run can be found in:
+2020-05-30T18:03:39.560897+00:00 app[web.1]: npm ERR!     /app/.npm/_logs/2020-05-30T18_03_39_552Z-debug.log
+2020-05-30T18:05:40.356466+00:00 heroku[web.1]: State changed from crashed to starting
+2020-05-30T18:05:43.965682+00:00 heroku[web.1]: Starting process with command `npm start`
+2020-05-30T18:05:46.543860+00:00 heroku[web.1]: Process exited with status 1
+2020-05-30T18:05:46.584205+00:00 heroku[web.1]: State changed from starting to crashed
+2020-05-30T18:05:46.418390+00:00 app[web.1]: 
+2020-05-30T18:05:46.418411+00:00 app[web.1]: > sebify@1.0.0 start /app
+2020-05-30T18:05:46.418412+00:00 app[web.1]: > node L06_Server.js
+2020-05-30T18:05:46.418412+00:00 app[web.1]: 
+2020-05-30T18:05:46.469535+00:00 app[web.1]: internal/modules/cjs/loader.js:969
+2020-05-30T18:05:46.469536+00:00 app[web.1]:   throw err;
+2020-05-30T18:05:46.469537+00:00 app[web.1]:   ^
+2020-05-30T18:05:46.469537+00:00 app[web.1]: 
+2020-05-30T18:05:46.469537+00:00 app[web.1]: Error: Cannot find module '/app/L06_Server.js'
+2020-05-30T18:05:46.469538+00:00 app[web.1]:     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+2020-05-30T18:05:46.469538+00:00 app[web.1]:     at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+2020-05-30T18:05:46.469539+00:00 app[web.1]:     at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+2020-05-30T18:05:46.469539+00:00 app[web.1]:     at internal/main/run_main_module.js:17:47 {
+2020-05-30T18:05:46.469540+00:00 app[web.1]:   code: 'MODULE_NOT_FOUND',
+2020-05-30T18:05:46.469540+00:00 app[web.1]:   requireStack: []
+2020-05-30T18:05:46.469541+00:00 app[web.1]: }
+2020-05-30T18:05:46.478129+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2020-05-30T18:05:46.478488+00:00 app[web.1]: npm ERR! errno 1
+2020-05-30T18:05:46.479923+00:00 app[web.1]: npm ERR! sebify@1.0.0 start: `node L06_Server.js`
+2020-05-30T18:05:46.480116+00:00 app[web.1]: npm ERR! Exit status 1
+2020-05-30T18:05:46.480334+00:00 app[web.1]: npm ERR! 
+2020-05-30T18:05:46.480504+00:00 app[web.1]: npm ERR! Failed at the sebify@1.0.0 start script.
+2020-05-30T18:05:46.487448+00:00 app[web.1]: npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+2020-05-30T18:05:46.490278+00:00 app[web.1]: 
+2020-05-30T18:05:46.490700+00:00 app[web.1]: npm ERR! A complete log of this run can be found in:
+2020-05-30T18:05:46.490701+00:00 app[web.1]: npm ERR!     /app/.npm/_logs/2020-05-30T18_05_46_483Z-debug.log
