@@ -23,7 +23,7 @@ var HaushaltshilfeData;
         //alert("Danke für deine Bestellung!");
         let form = document.querySelector('form');
         let data = new FormData(form);
-        let url = "https://whatever.server/path/file";
+        let url = "https://sebify.herokuapp.com";
         let query = new URLSearchParams(data);
         url += "?" + query.toString();
         alert(url);

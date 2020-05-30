@@ -27,7 +27,7 @@ namespace HaushaltshilfeData {
         let form = document.querySelector('form');
         let data = new FormData(<any>form);
 
-        let url: string = "https://whatever.server/path/file";
+        let url: string = "https://sebify.herokuapp.com";
         let query: URLSearchParams = new URLSearchParams(<any>data);
         url +="?" + query.toString();
         alert(url);
