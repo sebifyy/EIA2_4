@@ -7,8 +7,8 @@ Datum: 23.05.2020
 Hiermit versichere ich, dass ich diesen Code zum Teil selbst, zum Teil inspiriert durch Kommilitonen auf der Pages Seite geschrieben habe...
 Durch diese Hilfe konnte ich einige Dinge verstehen.
 */
-var HaushaltshilfeData;
-(function (HaushaltshilfeData) {
+var L06_Server;
+(function (L06_Server) {
     function generateContent(_data) {
         for (let category in _data) {
             let items = _data[category];
@@ -93,7 +93,7 @@ var HaushaltshilfeData;
             return group;
         }
     }
-    HaushaltshilfeData.generateContent = generateContent;
+    L06_Server.generateContent = generateContent;
     /*     export let data: Data = {
             Produkte: [
                 { name: "Wasser", price: 0.19, einheit: "Liter" },
@@ -120,5 +120,5 @@ var HaushaltshilfeData;
                 { name: "Paypal", price: 0, einheit: "" },
                 { name: "Überweisung", price: 0, einheit: "" }
             ] */
-})(HaushaltshilfeData || (HaushaltshilfeData = {}));
+})(L06_Server || (L06_Server = {}));
 //# sourceMappingURL=L05_Client_Data.js.map

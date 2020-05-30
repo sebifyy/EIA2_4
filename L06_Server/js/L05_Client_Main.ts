@@ -6,7 +6,7 @@ Datum: 23.05.2020
 Hiermit versichere ich, dass ich diesen Code zum Teil selbst, zum Teil inspiriert durch Kommilitonen auf der Pages Seite geschrieben habe... 
 Durch diese Hilfe konnte ich einige Dinge verstehen.
 */
-namespace HaushaltshilfeData {
+namespace L06_Server {
 
     
     window.addEventListener("load", handleLoad);

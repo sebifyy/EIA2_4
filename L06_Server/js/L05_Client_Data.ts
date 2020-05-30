@@ -8,7 +8,7 @@ Durch diese Hilfe konnte ich einige Dinge verstehen.
 */
 
 
-namespace HaushaltshilfeData {
+namespace L06_Server {
     //import products from 'data.json'; Wirft fehler deshalb aufgeklammert
     //console.log(products.name);
     export interface Item {

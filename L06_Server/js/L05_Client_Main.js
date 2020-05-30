@@ -7,14 +7,14 @@ Datum: 23.05.2020
 Hiermit versichere ich, dass ich diesen Code zum Teil selbst, zum Teil inspiriert durch Kommilitonen auf der Pages Seite geschrieben habe...
 Durch diese Hilfe konnte ich einige Dinge verstehen.
 */
-var HaushaltshilfeData;
-(function (HaushaltshilfeData) {
+var L06_Server;
+(function (L06_Server) {
     window.addEventListener("load", handleLoad);
     async function handleLoad() {
         let response = await fetch("data.json");
         let offer = await response.text();
         let data = JSON.parse(offer);
-        HaushaltshilfeData.generateContent(data);
+        L06_Server.generateContent(data);
         let form = document.querySelector("#form");
         form.addEventListener("change", handleChange);
         document.querySelector("#button")?.addEventListener("click", handleClick);
@@ -63,5 +63,5 @@ var HaushaltshilfeData;
         let supermarkt = data.get("Supermarkt");
         order.innerHTML += "Supermarkt Vorgabe: " + supermarkt + "<br>" + "<hr>" + "<h3>Total(mit Gebühr): " + total + "€<h3><hr>";
     }
-})(HaushaltshilfeData || (HaushaltshilfeData = {}));
+})(L06_Server || (L06_Server = {}));
 //# sourceMappingURL=L05_Client_Main.js.map
