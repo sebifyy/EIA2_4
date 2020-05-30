@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node app/js/L06_Server.js"
+    "start": "node L06_Server.js"
   },
   "author": "Sebastian Hoffmann",
   "license": "ISC",
