@@ -19,8 +19,7 @@ export namespace L06_Server {
         console.log("Gehts?");
         
         if (_request.url) {
-            let url: Url.UrlWithParsedQuery = Url.parse(_request.url, true);
-            
+            let url: Url.UrlWithParsedQuery = Url.parse(_request.url, true);            
         }
 
         _response.setHeader("content-type", "text/html; charset=utf-8");
