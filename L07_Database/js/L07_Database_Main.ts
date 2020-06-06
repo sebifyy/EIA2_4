@@ -26,7 +26,7 @@ namespace HaushaltshilfeDatabase {
        let form = document.querySelector("form");
        let data = new FormData(<any>form);
 
-       let url: string = "https://knobelkind.herokuapp.com/";
+       let url: string = "https://sebify.herokuapp.com";
        let query: URLSearchParams = new URLSearchParams(<any>data);
        url += "?" + query.toString();
        alert(url);
