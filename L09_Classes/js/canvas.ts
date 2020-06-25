@@ -50,41 +50,41 @@ namespace L08_CanvasVirus {
 
 		//Antikoerper malen
 		let areaAntiBody: Rectangle = {
-			x: 0, y: 50 + window.innerHeight / 3, width: window.innerWidth, height: window.innerHeight / 3			
+			x: 0, y: 50 + window.innerHeight / 3, width: window.innerWidth, height: window.innerHeight / 3
 		};
 
 		let antiBodyLocations = generateRandomCluster(areaAntiBody, 25);
-		antiBodyLocations.forEach(function (item){
+		antiBodyLocations.forEach(function (item) {
 			drawAntibody(item.x, item.y)
 		});
 
 		//Corona malen
 		let areaCorona: Rectangle = {
-			x: 0, y: innerHeight * 2/3, width: window.innerWidth, height: window.innerHeight / 3
+			x: 0, y: innerHeight * 2 / 3, width: window.innerWidth, height: window.innerHeight / 3
 		};
 
 		let coronaLocations = generateRandomCluster(areaCorona, 30);
-		coronaLocations.forEach(function (item){
+		coronaLocations.forEach(function (item) {
 			drawVirus(item.x, item.y)
 		});
-/* 		
-		for (let i: number = 0; i < 7; i++) {
-			let x: number = Math.random() * canvas.width;
-			let y: number = Math.random() * canvas.height;
-			drawHumanCell(x, y);
-		}
-
-		for (let i: number = 0; i < 4; i++) {
-			let x: number = Math.random() * canvas.width;
-			let y: number = Math.random() * canvas.height;
-			drawVirus(x, y);
-		}
-
-		for (let i: number = 0; i < 4; i++) {
-			let x: number = Math.random() * canvas.width;
-			let y: number = Math.random() * canvas.height;
-			drawAntibody(x, y);
-		} */
+		/* 		
+				for (let i: number = 0; i < 7; i++) {
+					let x: number = Math.random() * canvas.width;
+					let y: number = Math.random() * canvas.height;
+					drawHumanCell(x, y);
+				}
+		
+				for (let i: number = 0; i < 4; i++) {
+					let x: number = Math.random() * canvas.width;
+					let y: number = Math.random() * canvas.height;
+					drawVirus(x, y);
+				}
+		
+				for (let i: number = 0; i < 4; i++) {
+					let x: number = Math.random() * canvas.width;
+					let y: number = Math.random() * canvas.height;
+					drawAntibody(x, y);
+				} */
 	}
 
 	function drawBackground(): void {
@@ -133,11 +133,7 @@ namespace L08_CanvasVirus {
 		crc2.stroke(zellekern);
 	}
 
-
-
-	// Virus
 	function drawVirus(_x: number, _y: number): void {
-
 		let virusSpike: Path2D = new Path2D();
 		for (let i: number = 0; i < 10; i++) {
 			virusSpike.moveTo(_x + 70, _y);
@@ -174,14 +170,13 @@ namespace L08_CanvasVirus {
 		crc2.stroke(virusKern);
 	}
 
-
 	function drawAntibody(_x: number, _y: number): void {
 		let antibody: Path2D = new Path2D();
 		antibody.moveTo(_x, _y);
 		antibody.rect(_x, _y, 75, 20);
-				crc2.fillStyle = "white";
-				crc2.fill(antibody);
-				crc2.stroke(antibody);
+		crc2.fillStyle = "white";
+		crc2.fill(antibody);
+		crc2.stroke(antibody);
 
 		crc2.fillStyle = "white";
 		crc2.lineTo(_x, _y);
